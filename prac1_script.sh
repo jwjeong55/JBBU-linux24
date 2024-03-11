@@ -9,7 +9,7 @@ if [ -f "$filename" ]; then
 
     # 파일 내용에서 문자열 검색
     if [[ $content == *"$search_str"* ]]; then
-        echo "Practice #1 - success"
+        echo "practice #1 success - !"
     else
         echo "'$search_str' not found in the file."
     fi
