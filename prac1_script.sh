@@ -14,5 +14,5 @@ if [ -f "$filename" ]; then
         echo "'$search_str' not found in the file."
     fi
 else
-    echo "File not found."
+    echo "Cannot open file."
 fi
